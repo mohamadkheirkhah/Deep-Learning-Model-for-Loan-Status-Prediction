@@ -24,8 +24,6 @@ Classification Report:
        0       0.95      0.45      0.61      7711
        1       0.88      0.99      0.94     31811
 
-accuracy                           0.89     39522
-
 
 Results indicate an F1-score of 61% and 94% for classes 0 (default) and 1 (repayment), respectively. While these results are acceptable, there are opportunities for improvement through future work.
 
