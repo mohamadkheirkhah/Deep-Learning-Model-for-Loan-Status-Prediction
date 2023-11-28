@@ -2,11 +2,11 @@
 
 ## Overview
 
-This project focuses on building a deep learning model for predicting loan status using a subset of the LendingClub DataSet obtained from Kaggle. The dataset contains historical data on loans given out by LendingClub, including information on whether or not the borrower defaulted (charge-off). The goal is to develop a model that can assess the likelihood of a borrower paying back their loan, enabling the evaluation of new potential customers in the future.
+This project focuses on building a deep learning model for predicting loan status using a subset of the LendingClub DataSet obtained from Kaggle [https://www.kaggle.com/wordsforthewise/lending-club]. The dataset contains historical data on loans given out by LendingClub, including information on whether or not the borrower defaulted (charge-off). The goal is to develop a model that can assess the status of a borrower paying back their loan, enabling the evaluation of new potential customers in the future.
 
 ## Data
 
-The dataset has undergone comprehensive preprocessing, including data cleaning and feature engineering. Missing values have been addressed, unnecessary columns dropped, and categorical columns converted into numerical values for model compatibility. Exploratory data analysis and visualization were conducted to gain insights into the dataset.
+The dataset has undergone comprehensive preprocessing, including data cleaning and feature engineering. Missing values have been addressed, unnecessary columns dropped, and categorical columns converted into numerical values for model compatibility. Exploratory data analysis (EDA) and visualization were conducted to gain insights into the dataset.
 
 ## Model
 
@@ -40,7 +40,3 @@ Results indicate an F1-score of 61% and 94% for classes 0 (default) and 1 (repay
 3. **Threshold Optimization:** Investigate the impact of the threshold (currently set at 0.5) on model performance by examining AUC and ROC curves. Adjust the threshold for optimal results.
 
 4. **Hyperparameter Tuning:** Conduct grid search to fine-tune hyperparameters such as learning rate (alpha) for improved model generalization.
-
-5. **Documentation:** Provide detailed documentation on data preprocessing, model architecture, and evaluation metrics for future reference.
-
-Feel free to adapt and expand upon this README to provide additional context and details about your project.
