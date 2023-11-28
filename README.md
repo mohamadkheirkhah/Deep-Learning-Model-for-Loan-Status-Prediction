@@ -8,6 +8,30 @@ This project focuses on building a deep learning model for predicting loan statu
 
 The dataset has undergone comprehensive preprocessing, including data cleaning and feature engineering. Missing values have been addressed, unnecessary columns dropped, and categorical columns converted into numerical values for model compatibility. Exploratory data analysis (EDA) and visualization were conducted to gain insights into the dataset.
 
+The project relies on two datasets:
+
+lending_club_info.csv:** Information about each column in the lending_club_loan_two dataset.
+lending_club_loan_two.csv:** The primary dataset containing borrower and loan details.
+The primary dataset, lending_club_loan_two.csv, is large, and GitHub has file size limitations. Therefore, the dataset has been split into two parts. To access the full dataset, follow the instructions below.
+
+Instructions for Accessing the Full Dataset
+Download the Split Parts:
+
+Download dataset.partaa and dataset.partab
+Combine Split Files:
+
+For Unix-based Systems (Linux, macOS):
+cat dataset.part* > lending_club_loan_two.zip
+For Windows:
+copy /b dataset.part* lending_club_loan_two.zip
+Extract the Combined File:
+
+Extract the combined zip file to obtain lending_club_loan_two.csv.
+Place the Datasets:
+
+Place lending_club_loan_two.csv next to lending_club_info.csv in the project directory.
+
+
 ## Model
 
 The deep learning model is implemented using TensorFlow and Keras. To mitigate overfitting, dropout layers have been incorporated. Data normalization has been applied to enhance model performance. The model's training process includes stopping criteria to prevent overfitting.
