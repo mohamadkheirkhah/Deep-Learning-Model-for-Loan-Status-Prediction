@@ -14,13 +14,11 @@ The deep learning model is implemented using TensorFlow and Keras. To mitigate o
 
 ## Evaluation
 
-The dataset was split into training, cross-validation, and test sets. The model was evaluated on the test set, producing the following confusion matrix:
-
-[[ 3479 4232]
-[ 164 31647]]
+The dataset was split into training, cross-validation, and test sets. The model was evaluated on the test set, producing the following classification Report:
 
 
 Classification Report:
+
           precision    recall  f1-score   support
 
        0       0.95      0.45      0.61      7711
